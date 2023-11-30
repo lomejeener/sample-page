@@ -1,0 +1,293 @@
+@media (max-width:1155px) {
+  .callout {
+    width: auto;
+    flex-direction: column;
+  }
+
+  .callout-button {
+    width: auto;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+
+  .callout-subtext {
+    margin-bottom: 4rem;
+  }
+}
+
+@media (max-width:768px) {
+  .callout-text {
+    text-align: center;
+  }
+
+  .testimonial-subimage {
+    width: 100%;
+
+  }
+
+  .menu-image {
+    display: block;
+    width: 5%;
+    margin-top: 2%;
+    margin-right: 2rem;
+    cursor: pointer;
+    opacity: .6;
+    transition: opacity .3s;
+  }
+
+  .navigation-bar-responsive {
+    flex-direction: column;
+  }
+
+  .menu-list-container-mover-responsive {
+    max-height: 100vh;
+    opacity: 1;
+    overflow: initial;
+    transition: all .7s;
+    transition-timing-function: linear;
+  }
+
+  .menu-image:hover {
+    opacity: 1;
+  }
+
+  .menu-list-container-mover {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: all .7s;
+    transition-timing-function: linear;
+  }
+
+  .image-mover {
+    width: 100%;
+  }
+
+  .menu-list {
+    display: block;
+    padding-right: 0;
+    margin-right: 0;
+  }
+
+  .plan-domain {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .plan-card {
+    width: auto;
+  }
+
+  .hot-image {
+    max-width: 30px;
+  }
+
+  .testimonial {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .quote-subtext {
+    text-align: center;
+  }
+
+  .feature-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .text-align-mobile {
+    text-align: center;
+  }
+
+  .feature-block-charts-heading {
+    margin: 6rem 0 4rem 0;
+    font-size: 3rem;
+  }
+
+  .chart1,
+  .chart2,
+  .chart3,
+  .chart4 {
+    width: 25%;
+    margin: 2rem;
+  }
+
+  .media-object-block {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 5rem;
+  }
+
+  .media-object-block-image {
+    height: auto;
+    margin: 2rem;
+    width: 70vw;
+  }
+}
+
+@media (max-width:400px) {
+  .menu-image {
+    width: 10%;
+  }
+}
+
+@media (max-width:944px) {
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .hero-title {
+    align-items: center;
+    margin-right: 0;
+  }
+
+  .hero-text {
+    text-align: center;
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+
+  .hero-button {
+    width: 80%;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width:330px) {
+  .hero-text {
+    margin-left: 2rem;
+    margin-right: 1rem;
+  }
+
+  .domain-block-header {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .testimonial-subimage {
+    width: 100vw;
+  }
+
+  .testimonial-header-subtext {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (max-width:790px) {
+  .domain-list-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+      "li1 li2 li3"
+      "li4 li5 li6";
+    justify-content: center;
+    justify-items: center;
+    margin-right: 11%;
+  }
+
+  .domain-list1 {
+    grid-area: li1;
+  }
+
+  .domain-list2 {
+    grid-area: li2;
+  }
+
+  .domain-list3 {
+    grid-area: li3;
+  }
+
+  .domain-list4 {
+    grid-area: li4;
+  }
+
+  .domain-list5 {
+    grid-area: li5;
+  }
+
+  .domain-list6 {
+    grid-area: li6;
+  }
+
+  .search-image {
+    display: none;
+  }
+
+  .domain-block-search {
+    width: 80%;
+  }
+}
+
+@media (max-width:530px) {
+  .feature-block-charts-heading {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width:410px) {
+  .feature-block-heading {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
+
+@media (max-width:500px) {
+  .website-footer {
+    flex-wrap: wrap;
+  }
+
+  .testimonial-sublogo {
+    display: none;
+  }
+
+  .logo-footer {
+    display: none;
+  }
+}
+
+@media (max-width:576px) {
+  .media-object-picture {
+    width: 15%;
+  }
+}
+
+@media (min-width:577px) and (max-width:1000px) {
+  .media-object-picture {
+    width: 10%;
+  }
+}
+
+
+@media (min-width:360px) and (max-width:1005px) {
+  .plan-button {
+    width: 60%;
+  }
+}
+
+@media (min-width:486px) and (max-width:550px) {
+
+  .feature-block-heading-subtext {
+    margin-left: 1rem;
+  }
+}
+
+@media (min-width:319px) and (max-width:330px) {
+  .plan-button {
+    width: 50%;
+  }
+}
+
+
+@media(min-width:768px) {
+  .plan-card {
+    margin: 1%;
+  }
+}
